@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Com_UI from './components/index'
+import G_Com_UI from './components/index'
 
-Vue.use(Com_UI);
+Vue.use(G_Com_UI);
 
 new Vue({
     el: '#app',

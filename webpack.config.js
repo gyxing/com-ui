@@ -6,8 +6,8 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, './dist'),
         publicPath: '/dist/',
-        filename: 'com-ui.js',
-        library: 'com-ui',
+        filename: 'g-com-ui.js',
+        library: 'g-com-ui',
         libraryTarget: 'umd',
         umdNamedDefine: true
     },
