@@ -1,8 +1,11 @@
-import Icon from './Icon/index';
+import Button from './button/index';
+import Icon from './icon/index';
+import Modal from './modal/index';
+import Table from './table/index';
 
 const version = '__VERSION__';
 const components = {
-    Icon
+    Icon, Button, Modal, Table
 };
 
 function install (Vue) {
@@ -15,7 +18,7 @@ if (typeof window !== 'undefined' && window.Vue) install(window.Vue);
 
 export {
     version,
-    Icon
+    Icon, Button, Modal, Table
 }
 
 export default {

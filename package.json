@@ -1,7 +1,7 @@
 {
     "name": "simui",
     "description": "A Vue@2 UI Component",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "gyxing <172176234@qq.com>",
     "license": "MIT",
     "private": false,
@@ -16,17 +16,15 @@
         "url": "https://github.com/gyxing/simui"
     },
     "scripts": {
-        "start": "npm run dev",
-        "test": "webpack-dev-server --config build/test.js",
         "dev": "webpack-dev-server  --config build/webpack.dev.conf.js",
-        "build:doc": "node build/build.js doc",
+        "build-doc": "node build/build.js doc",
         "build": "node build/build.js "
     },
     "keywords": [
         "ui",
         "simui"
     ],
-    "homepage": "https://simui.gyxing.vip",
+    "homepage": "https://gyxing.github.io/simui/docs",
     "devDependencies": {
         "@babel/core": "^7.1.2",
         "@babel/preset-env": "^7.1.0",

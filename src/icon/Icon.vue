@@ -1,6 +1,6 @@
 <template>
-    <span class="b-icon" :class="{active: canClick}" :style="spanStyle" @click="btnClick()">
-        <svg class="b-icon__svg" aria-hidden="true" :style="svgStyle">
+    <span class="sim-icon" :class="{active: canClick}" :style="spanStyle" @click="btnClick()">
+        <svg class="sim-icon__svg" aria-hidden="true" :style="svgStyle">
             <use :xlink:href="path"></use>
         </svg>
     </span>
@@ -49,7 +49,7 @@
 </script>
 
 <style lang="less">
-    .b-icon {
+    .sim-icon {
         display: inline-block;
         line-height: 0;
         vertical-align: middle;
