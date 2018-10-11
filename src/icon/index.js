@@ -1,8 +1,4 @@
 import './iconfont.js';
-import Icon from './Icon.vue';
-
-Icon.install = function (Vue) {
-    Vue.component(Icon.name, Icon);
-};
+import Icon from './Icon';
 
 export default Icon;

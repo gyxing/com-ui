@@ -1,15 +1,26 @@
 <template>
-    <div>
-        <div>home</div>
-        <transition name="fade" mode="out-in">
-            <router-view></router-view>
-        </transition>
-    </div>
+    <Layout>
+        <Header><my-header /></Header>
+        <Layout inline>
+            <Sider><my-sider /></Sider>
+            <Content>
+                <transition name="fade" mode="out-in">
+                    <router-view></router-view>
+                </transition>
+            </Content>
+        </Layout>
+    </Layout>
 </template>
 
 <script>
+    import MyHeader from './header';
+    import MySider from './sider'
     export default {
-        name: "index"
+        name: "index",
+        components: {
+            MyHeader,
+            MySider
+        }
     }
 </script>
 

@@ -12,19 +12,10 @@ module.exports = merge(webpackBaseConfig, {
         contentBase: path.resolve(__dirname, '../docs'),
         port: 7001,
         hot: true,
-        // open: true,
+        open: true,
         inline: true,
         compress: true,
-        historyApiFallback: true,
-        // proxy: {
-        //     '/rest': {
-        //         target: 'http://10.0.101.162:9596', //测试环境
-        //         changeOrigin: true,
-        //         pathRewrite: {
-        //             '^/rest': '' //本地没有rest
-        //         },
-        //     }
-        // }
+        historyApiFallback: true
     },
     entry: {
         // index: [path.resolve(__dirname, '../docs/main.js')],
@@ -49,15 +40,13 @@ module.exports = merge(webpackBaseConfig, {
                             less: 'vue-style-loader!css-loader!less-loader'
                         },
                     }
-                },
-                /*{ loader: 'kui-loader', options: { prefix: false } }*/
-                ]
+                }]
             },
             {
                 test: /\.less$/,
                 // use: ['vue-style-loader', 'css-loader', 'less-loader'],
                 // use: ExtractTextPlugin.extract({ fallback: "style-loader", use: [{ loader: "css-loader" }, { loader: "less-loader" },], }),
-                use: ['vue-style-loader', 'css-loader', 'less-loader'], // : MiniCssExtractPlugin.loader, 
+                use: ['vue-style-loader', 'css-loader', 'less-loader'], // : MiniCssExtractPlugin.loader,
             },
         ]
     },

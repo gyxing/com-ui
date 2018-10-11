@@ -3,13 +3,17 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter);
 
-
 let router = [];
 let children = [];
 
 // 子页面
 let R = {
-    'icon': r => require.ensure([], () => r(require('../pages/icon')), 'icon')
+    'start': r => require.ensure([], () => r(require('../pages/start')), 'start'),
+    'icon': r => require.ensure([], () => r(require('../pages/icon')), 'icon'),
+    'button': r => require.ensure([], () => r(require('../pages/button')), 'button'),
+    'layout': r => require.ensure([], () => r(require('../pages/layout')), 'layout'),
+    'modal': r => require.ensure([], () => r(require('../pages/modal')), 'modal'),
+    'table': r => require.ensure([], () => r(require('../pages/table')), 'table'),
 };
 for (let x in R) {
     children.push({path: `/${x}`, name: x, component: R[x]})
@@ -26,7 +30,7 @@ router.push(
     });
 let routers = new VueRouter({
     routes: router,
-    mode: 'history',
+    // mode: 'history',
     scrollBehavior(to, from, savedPosition) {
         // return 期望滚动到哪个的位置
         return savedPosition || {x: 0, y: 0}

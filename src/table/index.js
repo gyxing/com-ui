@@ -1,7 +1,3 @@
-import Table from './Table.vue';
-
-Table.install = function (Vue) {
-    Vue.component(Table.name, Table);
-};
+import Table from './Table';
 
 export default Table;
