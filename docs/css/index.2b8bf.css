@@ -1,4 +1,4 @@
-/*! simui v0.0.1 by chuchur (c) 2018 Licensed MIT */
+/*! simui v0.0.2 by chuchur (c) 2018 Licensed MIT */
 
 .sim-button{display:flex;justify-content:center;align-items:center;white-space:nowrap;border-radius:6px;cursor:pointer;width:80px;height:25px;border:solid 1px #999;text-align:center
 }
