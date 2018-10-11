@@ -1,19 +1,19 @@
 {
-    "name": "g-com-ui",
-    "description": "A Vue.js project",
-    "version": "0.0.3",
+    "name": "ggui",
+    "description": "A Vue@2 UI Component",
+    "version": "0.0.1",
     "author": "gyxing <172176234@qq.com>",
     "license": "MIT",
     "private": false,
-    "main": "dist/g-com-ui.js",
-    "style": "dist/g-com-ui.css",
+    "main": "dist/ggui.js",
+    "style": "dist/ggui.css",
     "files": [
         "dist",
         "src/styles"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/gyxing/g-com-ui"
+        "url": "https://github.com/gyxing/ggui"
     },
     "scripts": {
         "start": "npm run dev",
@@ -23,9 +23,10 @@
         "build": "node build/build.js "
     },
     "keywords": [
-        "ui"
+        "ui",
+        "ggui"
     ],
-    "homepage": "https://ui.gyxing.vip",
+    "homepage": "https://ggui.gyxing.vip",
     "devDependencies": {
         "@babel/core": "^7.1.2",
         "@babel/preset-env": "^7.1.0",
