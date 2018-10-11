@@ -2,7 +2,7 @@
 
 * 基于Vue2的一套UI组件
 
-* [API文档入口](https://gyxing.github.io/simui/docs)
+* [API文档入口](https://gyxing.github.io/simui/docs/index.html)
 
 ```base
 npm install --save simui
