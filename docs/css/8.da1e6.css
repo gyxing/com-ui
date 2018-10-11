@@ -1,0 +1,28 @@
+/*! simui v0.0.1 by chuchur (c) 2018 Licensed MIT */
+
+.header[data-v-992a0d66]{display:flex;justify-content:space-between;align-items:center;height:100%
+}
+.logo[data-v-992a0d66]{font-size:20px;padding-left:30px
+}
+.nav[data-v-992a0d66]{height:100%;padding-right:35px
+}
+.nav a[data-v-992a0d66]{display:inline-block;height:100%;box-sizing:border-box;padding:15px 15px 0;font-size:14px
+}
+.nav a.active[data-v-992a0d66],.nav a[data-v-992a0d66]:hover{color:#3a95ff;border-bottom:2px solid #3a95ff
+}
+
+.menu-list[data-v-1e688b3f]{padding:15px 0
+}
+.menu-list .item a[data-v-1e688b3f]{display:block;padding:10px 5px 10px 20px
+}
+.menu-list .item a.router-link-exact-active .name[data-v-1e688b3f]{color:#3a95ff
+}
+.menu-list .item .name[data-v-1e688b3f]{font-size:16px
+}
+.menu-list .item .desc[data-v-1e688b3f]{font-size:12px;color:#999;margin-left:8px
+}
+.menu-list .item[data-v-1e688b3f]:hover{background-color:#f5f5f5
+}
+.menu-list .item:hover .name[data-v-1e688b3f]{color:#3a95ff
+}
+
