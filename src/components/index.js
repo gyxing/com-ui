@@ -1,13 +1,25 @@
-// import Vue from 'vue';
-import './iconfont.js';
-import Icon from './Icon.vue';
+import Icon from './Icon';
 
-// Vue.component('Icon', ()=>import('./Icon.vue'));
-
-const G_Com_UI = {
-    install(Vue, options) {
-        Vue.component(Icon.name, Icon);
-    }
+const version = '__VERSION__';
+const components = {
+    Icon
 };
 
-export default G_Com_UI;
+function install (Vue) {
+    Object.keys(components).forEach((key) => {
+        Vue.use(components[key]);
+    });
+}
+
+if (typeof window !== 'undefined' && window.Vue) install(window.Vue);
+
+export {
+    version,
+    Icon
+}
+
+export default {
+    version,
+    install,
+    ...components
+};
