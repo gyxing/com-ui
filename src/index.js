@@ -1,4 +1,4 @@
-import Icon from './Icon';
+import Icon from './Icon/index';
 
 const version = '__VERSION__';
 const components = {

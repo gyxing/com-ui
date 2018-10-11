@@ -1,16 +1,11 @@
 <template>
     <div>
-        <Icon type="down" />
+        <span>1111</span>
         <Icon type="up" />
     </div>
 </template>
-
 <script>
-    export default {
-
-    }
+    export default {};
 </script>
-
-<style lang="less" scoped>
-
+<style lang="less">
 </style>
