@@ -47,17 +47,3 @@
         }
     }
 </script>
-
-<style lang="less">
-    .sim-icon {
-        display: inline-block;
-        line-height: 0;
-        vertical-align: middle;
-        &.active:active {
-            opacity: 0.8;
-        }
-        &__svg {
-            fill: currentColor;
-        }
-    }
-</style>

@@ -3,6 +3,8 @@ import Icon from './icon/index';
 import Modal from './modal/index';
 import Table from './table/index';
 
+import './styles';
+
 const version = '__VERSION__';
 const components = {
     Icon, Button, Modal, Table

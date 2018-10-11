@@ -56,39 +56,3 @@
         },
     }
 </script>
-
-<style lang="less">
-    .sim-table {
-        .tb {
-            display: flex;
-            width: 100%;
-            border-left: solid 1px #ddd;
-            &-head {
-                background-color: #eee;
-                border-top: solid 1px #ddd;
-            }
-            .cell {
-                flex: 1;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: 8px;
-                border-bottom: solid 1px #ddd;
-                border-right: solid 1px #ddd;
-                box-sizing: border-box;
-                word-break: break-all;
-                &-nodata {
-                    color: #999;
-                    padding: 20px 0;
-                }
-                &_cb {
-                    flex: none;
-                    width: 50px;
-                }
-            }
-            &:not(.tb-head):hover {
-                background-color: #f5f5f5;
-            }
-        }
-    }
-</style>

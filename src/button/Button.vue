@@ -59,31 +59,3 @@
         }
     }
 </script>
-
-<style lang="less">
-    .sim-button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        white-space: nowrap;
-        border-radius: 6px;
-        cursor: pointer;
-        width: 80px;
-        height: 25px;
-        border: solid 1px #999;
-        text-align: center;
-        &[disabled] {
-            cursor: default;
-            opacity: 0.6;
-        }
-        &__loading {
-            color: #888;
-            line-height: 0;
-            height: 100%;
-            svg {
-                height: 100%;
-                fill: currentColor;
-            }
-        }
-    }
-</style>

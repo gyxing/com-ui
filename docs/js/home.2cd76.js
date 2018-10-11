@@ -1,0 +1,2 @@
+/*! simui v0.0.1 by chuchur (c) 2018 Licensed MIT */
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{"6LMH":function(n,e,t){},FkGm:function(n,e,t){"use strict";var i=t("6LMH");t.n(i).a},rbzO:function(n,e,t){"use strict";t.r(e);var i={name:"index"},s=(t("FkGm"),t("KHd+")),c=Object(s.a)(i,function(){var n=this.$createElement;return(this._self._c||n)("div",[this._v("index")])},[],!1,null,"7d0fcaf1",null);c.options.__file="index.vue";e.default=c.exports}}]);

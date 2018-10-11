@@ -1,12 +1,5 @@
 <template>
-    <div>
-        <span>1111</span>
-        <Icon type="up" />
-        <Button>click me</Button>
-    </div>
+    <transition name="fade" mode="out-in">
+        <router-view></router-view>
+    </transition>
 </template>
-<script>
-    export default {};
-</script>
-<style lang="less">
-</style>

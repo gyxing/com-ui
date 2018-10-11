@@ -1,10 +1,13 @@
+import 'babel-polyfill'
 import Vue from 'vue';
-import GComUI from '../src';
+import simui from '../src';
 import App from './App';
-Vue.use(GComUI);
+import router from './router'
 
-const app = new Vue({
-  ...App
+Vue.use(simui);
+
+new Vue({
+    el: '#app',
+    router: router,
+    render: h => h(App),
 });
-
-app.$mount('#app');

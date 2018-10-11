@@ -1,7 +1,7 @@
 {
     "name": "simui",
     "description": "A Vue@2 UI Component",
-    "version": "0.0.2",
+    "version": "0.0.1",
     "author": "gyxing <172176234@qq.com>",
     "license": "MIT",
     "private": false,
