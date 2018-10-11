@@ -82,7 +82,7 @@ module.exports = merge(webpackBaseConfig, {
             // 要把<script>标签插入到页面哪个标签里(body|true|head|false)
             inject: 'body',
             // 生成html文件的标题
-            title: 'GGUI 使用文档'
+            title: 'SimUI 使用文档'
             // hash如果为true，将添加hash到所有包含的脚本和css文件，对于解除cache很有用
             // minify用于压缩html文件，其中的removeComments:true用于移除html中的注释，collapseWhitespace:true用于删除空白符与换行符
         }),

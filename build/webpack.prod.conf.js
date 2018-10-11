@@ -16,8 +16,8 @@ module.exports = merge(webpackBaseConfig, {
     output: {
         path: path.resolve(__dirname, "../dist"),
         publicPath: "",
-        filename: "ggui.js",
-        library: 'ggui-vue',
+        filename: "simui.js",
+        library: 'simui-vue',
         libraryTarget: 'umd',
     },
     performance: {
@@ -69,7 +69,7 @@ module.exports = merge(webpackBaseConfig, {
     plugins: [
         new VueLoaderPlugin(), //for vue-loader 15
         new webpack.DefinePlugin({ PRODUCTION: "'true'" }),
-        new MiniCssExtractPlugin({ filename: 'ggui.css' }),
+        new MiniCssExtractPlugin({ filename: 'simui.css' }),
         new webpack.BannerPlugin(pkg.name + ' v' + pkg.version + ' by chuchur (c) ' + new Date().getFullYear() + ' Licensed ' + pkg.license),
         // 允许错误不打断程序
         // new webpack.NoErrorsPlugin(),
