@@ -1,16 +1,22 @@
 var path = require('path')
-var webpack = require('webpack')
+var webpack = require('webpack');
+
+var outputParams = process.env["NODE_ENV"] === "production" ? {
+    path: path.resolve(__dirname, './dist'),
+    publicPath: '/dist/',
+    filename: 'g-com-ui.js',
+    library: 'g-com-ui',
+    libraryTarget: 'umd',
+    umdNamedDefine: true
+} : {
+    path: path.resolve(__dirname, './dist'),
+    publicPath: '/dist/',
+    filename: 'build.js'
+};
 
 module.exports = {
     entry: './src/main.js',
-    output: {
-        path: path.resolve(__dirname, './dist'),
-        publicPath: '/dist/',
-        filename: 'g-com-ui.js',
-        library: 'g-com-ui',
-        libraryTarget: 'umd',
-        umdNamedDefine: true
-    },
+    output: outputParams,
     module: {
         rules: [
             {
