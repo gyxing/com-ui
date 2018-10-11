@@ -1,5 +1,7 @@
 # simui
 
+[例子](https://gyxing.github.io/simui/docs)
+
 
 ```base
 
