@@ -20,6 +20,8 @@
                     {name: 'Layout', desc: '布局', to: '/layout'},
                     {name: 'Modal', desc: '模态窗', to: '/modal'},
                     {name: 'Table', desc: '表格', to: '/table'},
+                    {name: 'Loading', desc: '加载提示', to: '/loading'},
+                    {name: 'Code', desc: '代码块', to: '/code'},
                 ]
             }
         }

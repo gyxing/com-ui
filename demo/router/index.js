@@ -14,6 +14,8 @@ let R = {
     'layout': r => require.ensure([], () => r(require('../pages/layout')), 'layout'),
     'modal': r => require.ensure([], () => r(require('../pages/modal')), 'modal'),
     'table': r => require.ensure([], () => r(require('../pages/table')), 'table'),
+    'loading': r => require.ensure([], () => r(require('../pages/loading')), 'loading'),
+    'code': r => require.ensure([], () => r(require('../pages/code')), 'code'),
 };
 for (let x in R) {
     children.push({path: `/${x}`, name: x, component: R[x]})
